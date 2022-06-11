@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+  bg-img1 {
+    background-position: left !important;
+    background-repeat: repeat !important;
+    background-size: cover !important;
+  }
+  body {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: left !important;
+  }
+}
