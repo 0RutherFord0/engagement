@@ -1,0 +1,10 @@
+.song button {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
