@@ -37,9 +37,16 @@
     <link rel="stylesheet" type="text/css" href="css/util.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" />
     <!--===============================================================================================-->
   </head>
   <body>
+    <audio id="idAudio">
+      <source
+        src="./song/one direction - night changes (slowed   reverb).mp3"
+        type="audio/ogg"
+      />
+    </audio>
     <div
       class="bg-img1 size1 overlay1 p-b-35 p-l-15 p-r-15"
       style="background-image: url('images/bg01.jpg')"
@@ -52,31 +59,12 @@
         <h3 class="l1-txt1 txt-center p-t-30 p-b-100">Two souls, one heart.</h3>
 
         <div class="cd100"></div>
+        <div class="song">
+          <button onclick="play_Audio()" id="btn1" type="button">
+            Play Audio
+          </button>
+        </div>
       </div>
-
-      <!--  -->
-      <!-- <div class="flex-w flex-c-m p-b-35">
-        <a
-          href="#"
-          class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-        >
-          <i class="fa fa-facebook"></i>
-        </a>
-
-        <a
-          href="#"
-          class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-        >
-          <i class="fa fa-twitter"></i>
-        </a>
-
-        <a
-          href="#"
-          class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-        >
-          <i class="fa fa-youtube-play"></i>
-        </a>
-      </div> -->
     </div>
 
     <!--===============================================================================================-->
@@ -116,5 +104,6 @@
     </script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
