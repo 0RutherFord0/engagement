@@ -1,8 +1,6 @@
 var GFG = document.getElementById("idAudio");
-window.onload = (event) => {
-  console.log("Hello World");
-  document.getElementById("mymarquee").stop();
-};
+document.getElementById("mymarquee").stop();
+
 function play_Audio() {
   GFG.play();
   document.getElementById("mymarquee").start();
