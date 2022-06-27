@@ -245,13 +245,22 @@ Primary use:
 
 .l1-txt2 {
   font-family: Montserrat-Thin;
-  font-size: 25px;
+  font-size: 35px;
   color: #fff;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
 
+.l1-txt3 {
+  font-family: Montserrat-Thin;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 ==================================================================*/
