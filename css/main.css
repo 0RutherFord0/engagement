@@ -243,6 +243,15 @@ Primary use:
   letter-spacing: 10px;
 }
 
+.l1-txt2 {
+  font-family: Montserrat-Thin;
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 ==================================================================*/
