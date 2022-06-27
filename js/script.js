@@ -1,4 +1,6 @@
 var GFG = document.getElementById("idAudio");
+var calendarUrl =
+  "https://calendar.google.com/event?action=TEMPLATE&tmeid=MGdya2JuaWtsMHB2dDd1bGxmbTZ1ZWViczkgYWRpdHlhdHdkMEBt&tmsrc=adityatwd0%40gmail.com";
 document.getElementById("mymarquee").stop();
 
 function play_Audio() {
@@ -13,4 +15,8 @@ function pause_Audio() {
   document.getElementById("btn1").style.display = "block";
   document.getElementById("mymarquee").stop();
   GFG.pause();
+}
+
+function calender() {
+  location.href = calendarUrl;
 }
