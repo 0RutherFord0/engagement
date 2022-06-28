@@ -18,5 +18,5 @@ function pause_Audio() {
 }
 
 function calender() {
-  // location.href = calendarUrl;
+  location.href = calendarUrl;
 }
