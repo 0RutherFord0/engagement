@@ -17,6 +17,10 @@ function pause_Audio() {
   GFG.pause();
 }
 
+window.addEventListener("load", (event) => {
+  console.log("page is fully loaded");
+});
+
 function calender() {
   location.href = calendarUrl;
 }
