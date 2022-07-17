@@ -1,6 +1,5 @@
 var GFG = document.getElementById("idAudio");
-var calendarUrl =
-  "https://calendar.google.com/event?action=TEMPLATE&tmeid=MGdya2JuaWtsMHB2dDd1bGxmbTZ1ZWViczkgYWRpdHlhdHdkMEBt&tmsrc=adityatwd0%40gmail.com";
+var calendarUrl = "https://g.page/anuradhamangalkaryalay?share";
 document.getElementById("mymarquee").stop();
 
 function play_Audio() {
