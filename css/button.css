@@ -38,6 +38,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .bg-img1 {
+    background-position: 55%;
+  }
   .runningtext {
     display: none;
   }
