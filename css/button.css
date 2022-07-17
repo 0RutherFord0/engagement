@@ -8,7 +8,7 @@
   cursor: pointer;
   text-align: center;
   margin-top: -1em;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(91, 91, 91, 0.514);
   padding: 15px;
 }
 .song2 button {
@@ -21,7 +21,7 @@
   cursor: pointer;
   text-align: center;
   margin-top: 1em;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(91, 91, 91, 0.514);
   padding: 15px;
 }
 
@@ -35,4 +35,10 @@
   cursor: pointer;
   text-align: center;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .runningtext {
+    display: none;
+  }
 }
