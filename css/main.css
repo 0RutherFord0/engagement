@@ -346,11 +346,11 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background: #7579ff;
+  /* background: #7579ff;
   background: -webkit-linear-gradient(top, #000000, #44444b);
   background: -o-linear-gradient(top, #000000, #44444b);
   background: -moz-linear-gradient(top, #000000, #44444b);
-  background: linear-gradient(top, #000000, #44444b);
+  background: linear-gradient(top, #000000, #44444b); */
   opacity: 0.8;
 }
 
