@@ -22,5 +22,4 @@ window.addEventListener("load", (event) => {
 
 function calender() {
   window.open(directionUrl, "_blank").focus();
-  play_Audio();
 }
