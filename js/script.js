@@ -1,5 +1,5 @@
 var GFG = document.getElementById("idAudio");
-var calendarUrl = "https://g.page/anuradhamangalkaryalay?share";
+var directionUrl = "https://g.page/anuradhamangalkaryalay?share";
 document.getElementById("mymarquee").stop();
 
 function play_Audio() {
@@ -17,9 +17,10 @@ function pause_Audio() {
 }
 
 window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
+  console.log("Page is fully loaded");
 });
 
 function calender() {
-  location.href = calendarUrl;
+  window.open(directionUrl, "_blank").focus();
+  play_Audio();
 }
