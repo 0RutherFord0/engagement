@@ -20,6 +20,13 @@ window.addEventListener("load", (event) => {
   console.log("Page is fully loaded");
 });
 
-function calender() {
-  window.open(directionUrl, "_blank").focus();
+function calender(dataurl, filename) {
+  // window.open(directionUrl, "_blank").focus();
+  // window.location.assign("./images/1.png");
+  var anchor = document.createElement("a");
+  anchor.setAttribute("href", "./images/engagment-invite.png");
+  anchor.setAttribute("download", "");
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.parentNode.removeChild(anchor);
 }
