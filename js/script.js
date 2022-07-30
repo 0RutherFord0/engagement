@@ -21,8 +21,6 @@ window.addEventListener("load", (event) => {
 });
 
 function calender(dataurl, filename) {
-  // window.open(directionUrl, "_blank").focus();
-  // window.location.assign("./images/1.png");
   var anchor = document.createElement("a");
   anchor.setAttribute("href", "./images/engagment-invite.png");
   anchor.setAttribute("download", "");

@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/0RutherFord0/engagement/issues"
   },
-  "homepage": "https://github.com/0RutherFord0/engagement#readme",
-  "dependencies": {
-    "nodemailer": "^6.7.5"
-  }
+  "homepage": "https://github.com/0RutherFord0/engagement#readme"
 }
